@@ -7,7 +7,7 @@ image = cv2.imread('teste01.png')
 output = image.copy()
 
 img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)#converte em tons de cinza
-rows = img.shape[0]
+#rows = img.shape[0]
 
 #funçãoHough
 #circles = cv2.HoughCircles(img, cv2.HOUGH_GRADIENT, 1, rows/17, param1=60, param2=10, minRadius=10, maxRadius=37)
