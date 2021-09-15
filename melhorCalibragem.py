@@ -26,6 +26,8 @@ cv2.imshow('img_pivodetec',img)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 
+#melhoriar de bug
+
 #information Hough circles transform 
 
 #imagem:	        Imagem de entrada em tons de cinza de canal único, 8 bits.
